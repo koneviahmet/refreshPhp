@@ -28,7 +28,9 @@ getlerin çalıştığına dikkat ediniz..
 
 ![1. resim](img/1.png)
 
+
 Yeni ekleyeceğiniz php dosyaları
+
 ![2. resim](img/2.png)
 
 php dizini altında olmalıdır ve ana dizin ise index.php olmalıdır.  
