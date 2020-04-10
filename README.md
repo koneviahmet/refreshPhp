@@ -34,7 +34,3 @@ Yeni ekleyeceğiniz php dosyaları
 ![2. resim](img/2.png)
 
 php dizini altında olmalıdır ve ana dizin ise index.php olmalıdır.  
-
-Bu kısım çok önemli index.php sayfasında aşağıdaki kodun her zaman olması gerekiyor.
-> <script src="/reload/reload.js"></script>
-![3. resim](img/3.png)
