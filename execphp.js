@@ -6,7 +6,9 @@ class ExecPHP {
     let homeDir = parseDir[parseDir.length - 2];
     let subDir  = parseDir[parseDir.length - 1];
     browser.browse("http://localhost/"+homeDir+"/"+subDir+"/"+url, function(err, out) {
-      callback(out.result);
+      let dom = out.result;
+      dom = dom.split("localhost/"+homeDir+"/"+subDir+"/index.php").join("localhost:3000/index.php");
+      callback(dom + '<script src="/reload/reload.js"></script>');
     });
   }
 }
