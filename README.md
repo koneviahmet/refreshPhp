@@ -10,6 +10,7 @@ localde yazdığını php dosyalarını otomatik olarak tarayıcıda gösterir. 
 
 Aşağıdaki komutları sırasıyla nodejs terminaline yazınız.
 > npm install
+> npm install -g nodemon
 
 Yukarıdaki komut gerekli modullerin kurulmasını sağlayacaktır.
 
