@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Ahmet ŞIKsxxs</title>
+    <title>Ahmet ŞIK</title>
   </head>
   <body>
     <?php $f = @$_GET['f']; ?>
